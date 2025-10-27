@@ -1,0 +1,26 @@
+[
+  {
+    "id": "web",
+    "title": "Website Development",
+    "subtitle": "Fast, SEO-friendly, responsive websites",
+    "features": ["Responsive UI", "SEO basics", "Performance optimization", "CMS integration"]
+  },
+  {
+    "id": "mobile",
+    "title": "Mobile Apps",
+    "subtitle": "Cross-platform apps with smooth UX",
+    "features": ["React Native / Expo", "Push notifications", "App Store deployment"]
+  },
+  {
+    "id": "ai",
+    "title": "AI & ML",
+    "subtitle": "Proof-of-concepts and models",
+    "features": ["Data cleaning", "Model training", "Deployment & APIs"]
+  },
+  {
+    "id": "student-projects",
+    "title": "Student Projects & Mentorship",
+    "subtitle": "Complete project delivery, reports & demos",
+    "features": ["Project planning", "Code & documentation", "Live demo assistance"]
+  }
+]
