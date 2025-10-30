@@ -25,10 +25,10 @@ const Services = () => {
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6">
-              Our <span className="bg-gradient-primary bg-clip-text text-transparent">Services</span>
+              Our <span className="bg-gradient bg-clip-text">Services</span>
             </h1>
             <p className="text-xl text-muted-foreground font-body">
-              Comprehensive solutions for web, mobile, AI/ML, and student project development.
+              Comprehensive solutions for web, mobile, AI/ML, and student College project development.
             </p>
           </div>
 
@@ -78,9 +78,16 @@ const Services = () => {
                           </Card>
                         ))}
                       </div>
-                      <Button asChild className="w-full bg-gradient-primary">
-                        <Link to="/contact">Request Quote</Link>
-                      </Button>
+               <Button asChild className="w-full bg-gradient-primary">
+  <a
+  href="https://wa.me/919765749263?text=Hi%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20my%20project."
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Request Quote
+  </a>
+</Button>
+
                     </div>
                   </div>
                 </Card>
@@ -96,9 +103,16 @@ const Services = () => {
               <p className="text-muted-foreground font-body mb-8 max-w-2xl mx-auto">
                 Schedule a free consultation and we'll help you choose the right solution for your project.
               </p>
-              <Button asChild size="lg" className="bg-gradient-primary">
-                <Link to="/contact">Book Consultation</Link>
-              </Button>
+   <Button asChild size="lg" className="bg-gradient-primary">
+  <a
+    href="https://wa.me/919765749263?text=Hi%2C%20I%27d%20like%20to%20book%20a%20consultation."
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Book Consultation
+  </a>
+</Button>
+
             </Card>
           </div>
         </div>

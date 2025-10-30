@@ -25,7 +25,7 @@ const Projects = () => {
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6">
-              Our <span className="bg-gradient-primary bg-clip-text text-transparent">Projects</span>
+              Our <span className="bg-gradient bg-clip-text ">Projects</span>
             </h1>
             <p className="text-xl text-muted-foreground font-body">
               Explore our portfolio of successful web, mobile, and AI/ML solutions.

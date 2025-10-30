@@ -66,7 +66,7 @@ const Contact = () => {
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6">
-              Get in <span className="bg-gradient-primary bg-clip-text text-transparent">Touch</span>
+              Get in <span className="bg-gradient bg-clip-text ">Touch</span>
             </h1>
             <p className="text-xl text-muted-foreground font-body">
               Have a project in mind? Let's discuss how we can help bring your ideas to life.
@@ -114,7 +114,7 @@ const Contact = () => {
                       <FormItem>
                         <FormLabel className="font-body">Phone</FormLabel>
                         <FormControl>
-                          <Input placeholder="+91 98765 43210" {...field} className="bg-secondary border-border" />
+                          <Input placeholder="+91 97657 49263" {...field} className="bg-secondary border-border" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -199,7 +199,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-heading font-semibold mb-1">Phone</h3>
                       <a href="tel:+919876543210" className="text-muted-foreground font-body hover:text-accent transition-colors">
-                        +91 98765 43210
+                        +91 97657 49263
                       </a>
                     </div>
                   </div>
@@ -211,8 +211,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-heading font-semibold mb-1">Address</h3>
                       <p className="text-muted-foreground font-body">
-                        Koramangala<br />
-                        Bengaluru, India
+                        Amravati<br />
+                        Sai Nagar, India
                       </p>
                     </div>
                   </div>

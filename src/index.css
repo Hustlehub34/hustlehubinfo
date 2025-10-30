@@ -8,45 +8,56 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 268 100% 3%;
+    /* HustleHub Logo Color Palette */
+    /* Background: Dark navy from logo circle center */
+    --background: 244 64% 11%;
     --foreground: 0 0% 100%;
 
-    --card: 268 30% 6%;
+    /* Cards: Slightly lighter dark navy */
+    --card: 244 47% 15%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 268 30% 6%;
+    --popover: 244 47% 15%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 266 100% 50%;
+    /* Primary: Bright purple from HP logo (#A855F7) */
+    --primary: 270 91% 65%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 268 20% 12%;
+    /* Secondary: Darker purple tone */
+    --secondary: 244 47% 20%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 268 15% 15%;
+    /* Muted: Medium dark with purple tint */
+    --muted: 244 40% 25%;
     --muted-foreground: 0 0% 82%;
 
-    --accent: 270 60% 75%;
-    --accent-foreground: 268 100% 3%;
+    /* Accent: Pink from HP logo gradient (#EC4899) */
+    --accent: 330 81% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 268 20% 20%;
-    --input: 268 20% 20%;
-    --ring: 266 100% 50%;
+    /* Borders: Purple-tinted dark */
+    --border: 244 40% 25%;
+    --input: 244 40% 22%;
+    --ring: 270 91% 65%;
 
     --radius: 1rem;
 
-    /* HustleHub gradient tokens */
-    --gradient-primary-start: 266 79% 40%;
-    --gradient-primary-end: 268 100% 12%;
-    --gradient-subtle-start: 268 30% 8%;
-    --gradient-subtle-end: 268 30% 4%;
+    /* HustleHub gradient tokens - Purple to Magenta (logo gradient) */
+    --gradient-primary-start: 270 91% 65%;
+    --gradient-primary-end: 292 72% 49%;
+    --gradient-subtle-start: 244 50% 18%;
+    --gradient-subtle-end: 244 64% 11%;
 
-    /* Glass effect */
-    --glass-bg: 268 30% 10%;
-    --glass-border: 268 20% 25%;
+    /* Blue accent from logo gradient (#3B82F6) */
+    --gradient-blue-accent: 217 91% 60%;
+
+    /* Glass effect - with logo navy tint */
+    --glass-bg: 244 50% 18%;
+    --glass-border: 244 40% 30%;
   }
 }
 
@@ -57,5 +68,134 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+/* Custom Animations for Modern UI */
+@layer utilities {
+  @keyframes gradient-shift {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  @keyframes gradient-slow {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.8;
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slide-in-right {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes scale-in {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .animate-gradient-shift {
+    background-size: 200% 200%;
+    animation: gradient-shift 8s ease infinite;
+  }
+
+  .animate-gradient-slow {
+    animation: gradient-slow 6s ease-in-out infinite;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.8s ease-out;
+  }
+
+  .animate-slide-in-right {
+    animation: slide-in-right 0.6s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scale-in 0.5s ease-out;
+  }
+
+  .delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .delay-1000 {
+    animation-delay: 1000ms;
+  }
+
+  /* Gradient utilities */
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--gradient-primary-start)), hsl(var(--gradient-primary-end)));
+  }
+
+  .bg-gradient-subtle {
+    background: linear-gradient(180deg, hsl(var(--gradient-subtle-start)), hsl(var(--gradient-subtle-end)));
+  }
+
+  /* Glass morphism effect */
+  .glass-card {
+    background: hsl(var(--glass-bg) / 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--glass-border) / 0.3);
+  }
+
+  /* Glow effects */
+  .glow-primary {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 20px hsl(var(--accent) / 0.3);
   }
 }

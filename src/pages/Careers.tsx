@@ -10,31 +10,31 @@ const Careers = () => {
   const openRoles = [
     {
       title: "Full Stack Developer",
-      location: "Bengaluru / Remote",
+      location: "Amravati / Remote",
       type: "Full-time",
       description: "Build scalable web applications using React, Node.js, and modern frameworks.",
     },
     {
       title: "Mobile App Developer",
-      location: "Bengaluru / Remote",
+      location: "Amravati / Remote",
       type: "Full-time",
       description: "Create beautiful cross-platform mobile apps with React Native and Flutter.",
     },
     {
       title: "AI/ML Engineer",
-      location: "Bengaluru / Remote",
+      location: "Amravati / Remote",
       type: "Full-time",
       description: "Develop and deploy machine learning models for real-world applications.",
     },
     {
-      title: "Student Project Mentor",
+      title: "Student College Project Mentor",
       location: "Remote",
       type: "Part-time",
       description: "Guide college students through their academic projects and technical challenges.",
     },
     {
       title: "UI/UX Designer",
-      location: "Bengaluru / Remote",
+      location: "Mumbai / Remote",
       type: "Full-time",
       description: "Design intuitive and beautiful user experiences for web and mobile applications.",
     },
@@ -48,7 +48,7 @@ const Careers = () => {
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6">
-              Join <span className="bg-gradient-primary bg-clip-text text-transparent">HustleHub</span>
+              Join <span className="bg-gradient bg-clip-text ">HustleHub</span>
             </h1>
             <p className="text-xl text-muted-foreground font-body">
               Build products, mentor students, and ship impact. We're building the future of tech education and development.

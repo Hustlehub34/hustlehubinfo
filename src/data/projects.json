@@ -1,25 +1,25 @@
 [
   {
     "id": "eduwave",
-    "title": "EduWave Learning Platform",
+    "title": "Nexus Photography Studio",
     "description": "Complete LMS with live classes, assignments, and student analytics dashboard.",
-    "image": "/assets/projects/eduwave.jpg",
+    "image": "src/assets/NexusProject.png",
     "tags": ["React", "Node.js", "MongoDB", "WebRTC"],
     "category": "Web Development"
   },
   {
     "id": "campuskart",
-    "title": "CampusKart Mobile App",
+    "title": "Sporto Mobile App",
     "description": "E-commerce marketplace connecting college students for buying and selling campus essentials.",
-    "image": "/assets/projects/campuskart.jpg",
+    "image": "src/assets/turfbook.png",
     "tags": ["React Native", "Firebase", "Stripe", "Redux"],
     "category": "Mobile Development"
   },
   {
     "id": "turfify",
-    "title": "Turfify Booking System",
+    "title": "Sporto Booking System",
     "description": "Sports turf booking platform with real-time availability and payment integration.",
-    "image": "/assets/projects/turfify.jpg",
+    "image": "src/assets/turfbook.png",
     "tags": ["Next.js", "PostgreSQL", "Razorpay", "Tailwind"],
     "category": "Web Development"
   },
@@ -35,7 +35,7 @@
     "id": "hostel-management",
     "title": "Hostel Management System",
     "description": "Student project for managing hostel operations including room allocation and complaints.",
-    "image": "/assets/projects/hostel.jpg",
+    "image": "src/assets/hostel1.jpg",
     "tags": ["Java", "Spring Boot", "MySQL", "Thymeleaf"],
     "category": "Student Project"
   },
@@ -46,5 +46,21 @@
     "image": "/assets/projects/waste.jpg",
     "tags": ["Python", "PyTorch", "OpenCV", "Flask"],
     "category": "AI/ML"
+  },
+  {
+    "id": "chatbot-assistant",
+    "title": "AI Resume  Builder",
+    "description": "Intelligent chatbot leveraging NLP to assist students with course, attendance, and exam-related queries.",
+    "image": "src/assets/aibuilder.webp",
+    "tags": ["Python", "NLP", "TensorFlow", "Django"],
+    "category": "Student Project"
+  },
+  {
+    "id": "disease-predictor",
+    "title": "Movie Ticket Booking",
+    "description": "Online movie ticket booking system with seat reservation and payment integration",
+    "image": "src/assets/movieticket.webp",
+    "tags": ["Python", "Scikit-learn", "Pandas", "Flask"],
+    "category": "Student Project"
   }
 ]
