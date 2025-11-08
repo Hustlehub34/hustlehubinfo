@@ -7,14 +7,7 @@
     "tags": ["React", "Node.js", "MongoDB", "WebRTC"],
     "category": "Web Development"
   },
-  {
-    "id": "campuskart",
-    "title": "Sporto Mobile App",
-    "description": "E-commerce marketplace connecting college students for buying and selling campus essentials.",
-    "image": "src/assets/turfbook.png",
-    "tags": ["React Native", "Firebase", "Stripe", "Redux"],
-    "category": "Mobile Development"
-  },
+
   {
     "id": "turfify",
     "title": "Sporto Booking System",
@@ -25,25 +18,33 @@
   },
   {
     "id": "sentiment-analyzer",
-    "title": "Customer Sentiment Analyzer",
-    "description": "ML model to analyze customer reviews and feedback with sentiment classification.",
-    "image": "/assets/projects/sentiment.jpg",
+    "title": "D-Nest Architecture",
+"description": "Dnest — modern residential and commercial architecture blending minimalist design, sustainable materials, and smart living solutions.",
+    "image": "src/assets/dnest.png",
     "tags": ["Python", "TensorFlow", "NLP", "FastAPI"],
-    "category": "AI/ML"
+    "category": "Web Development"
+  },
+    {
+    "id": "campuskart",
+    "title": "Sporto Mobile App",
+    "description": "E-commerce marketplace connecting college students for buying and selling campus essentials.",
+    "image": "src/assets/eflyer.jpg",
+    "tags": ["React Native", "Firebase", "Stripe", "Redux"],
+    "category": "Mobile Development"
   },
   {
     "id": "hostel-management",
     "title": "Hostel Management System",
     "description": "Student project for managing hostel operations including room allocation and complaints.",
     "image": "src/assets/hostel1.jpg",
-    "tags": ["Java", "Spring Boot", "MySQL", "Thymeleaf"],
+    "tags": ["Java", "Spring Boot","Django", "MySQL", "Thymeleaf"],
     "category": "Student Project"
   },
   {
-    "id": "waste-classifier",
-    "title": "AI Waste Classifier",
-    "description": "Computer vision model to classify waste into recyclable and non-recyclable categories.",
-    "image": "/assets/projects/waste.jpg",
+    "id": "Ganraaj Designs & Build",
+    "title": "Ganraaj Designs & Build",
+"description": "Ganraaj Constructions specializes in modern building design and quality infrastructure development with a focus on durability, precision, and customer satisfaction.",
+    "image": "/assets/projects/ganraaj.png",
     "tags": ["Python", "PyTorch", "OpenCV", "Flask"],
     "category": "AI/ML"
   },
