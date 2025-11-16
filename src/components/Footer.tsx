@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Linkedin as LinkedinIcon, Twitter as TwitterIcon, Github as GithubIcon, Send, Heart } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin as LinkedinIcon, Twitter as TwitterIcon, Github as GithubIcon, Send, Heart ,MessageCircleIcon as WhatsappIcon ,InstagramIcon} from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
@@ -17,9 +17,14 @@ const Footer = () => {
             <Link to="/" className="flex items-center space-x-3 group">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-xl opacity-20 group-hover:opacity-40 blur-md transition-all duration-300" />
-                <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                  <span className="text-xl font-heading font-black text-white">H</span>
+                <div className="relative w-10 h-10 rounded-xl overflow-hidden">
+                  <img
+                  src="src/assets/logoo.png"
+                  alt="Logo"
+                  className="w-12 h-12 object-contain"
+                />
                 </div>
+
               </div>
               <div className="flex flex-col">
                 <span className="text-lg font-heading font-black text-foreground group-hover:text-primary transition-colors">
@@ -34,22 +39,37 @@ const Footer = () => {
               Transforming ideas into powerful digital experiences. From student projects to enterprise solutions.
             </p>
             <div className="flex space-x-3">
-              {[
-                { icon: LinkedinIcon, href: "#", label: "LinkedIn" },
-                { icon: TwitterIcon, href: "#", label: "Twitter" },
-                { icon: GithubIcon, href: "#", label: "GitHub" }
-              ].map(({ icon: Icon, href, label }) => (
-                <a
-                  key={label}
-                  href={href}
-                  aria-label={label}
-                  className="group relative w-10 h-10 rounded-lg bg-card/50 border border-border/50 hover:border-primary/50 flex items-center justify-center transition-all duration-300 hover:scale-110"
-                >
-                  <Icon size={18} className="text-muted-foreground group-hover:text-primary transition-colors" />
-                  <div className="absolute inset-0 bg-primary/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </a>
-              ))}
-            </div>
+  {[
+    { 
+      icon: LinkedinIcon, 
+      href: "https://linkedin.com/company/hustlehub42", 
+      label: "LinkedIn" 
+    },
+    { 
+      icon: InstagramIcon, 
+      href: "https://www.instagram.com/_hub_hustle_/?igsh=ZWM5eG9mNmhqbTM1&utm_source=qr#", 
+      label: "Instagram" 
+    },
+    { 
+      icon: WhatsappIcon, 
+      href: "https://wa.me/919765749263?text=Hi%20HustleHub!%20I%20need%20help%20with%20my%20college%20project.%20Can%20you%20provide%20a%20quotation%3F", 
+      label: "Whatsapp" 
+    }
+  ].map(({ icon: Icon, href, label }) => (
+    <a
+      key={label}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={label}
+      className="group relative w-10 h-10 rounded-lg bg-card/50 border border-border/50 hover:border-primary/50 flex items-center justify-center transition-all duration-300 hover:scale-110"
+    >
+      <Icon size={18} className="text-muted-foreground group-hover:text-primary transition-colors" />
+      <div className="absolute inset-0 bg-primary/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+    </a>
+  ))}
+</div>
+
           </div>
 
           {/* Quick Links */}

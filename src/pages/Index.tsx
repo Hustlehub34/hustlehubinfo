@@ -321,21 +321,22 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
                 {
-                  name: "Sarah Johnson",
-                  role: "CEO, TechStartup",
-                  text: "HustleHub transformed our vision into reality! The team's expertise in AI and web development exceeded all expectations. Highly recommended!",
+                  name: "Shubham Bante",
+                  role: "Founder of  Spoortx",
+                  text: "HustleHub transformed our vision into reality! The team's expertise in App development exceeded all expectations. Highly recommended!",
                   rating: 5
                 },
                 {
-                  name: "Michael Chen",
-                  role: "Founder, E-Commerce Plus",
-                  text: "Outstanding work! They delivered our e-commerce platform ahead of schedule with amazing features. The support team is incredible!",
+                  name: "Niraj",
+                  role: "Owner of Studio Nexus",
+                  text: "Outstanding work! They delivered our website  ahead of schedule with amazing features. The support team is incredible!",
                   rating: 5
+                  //Outstanding work! They delivered our e-commerce platform ahead of schedule with amazing features. The support team is incredible!
                 },
                 {
-                  name: "Emily Rodriguez",
-                  role: "Product Manager, InnovateCo",
-                  text: "Best decision we made! Professional, creative, and results-driven. Our mobile app has 100K+ downloads thanks to their brilliant execution.",
+                  name: "Drashika Ganesha",
+                  role: "Owner of D-nest Architects",
+                  text: "Best decision we made! Professional, creative, and results-driven. Thanks to their brilliant execution.",
                   rating: 5
                 }
               ].map((testimonial, idx) => (

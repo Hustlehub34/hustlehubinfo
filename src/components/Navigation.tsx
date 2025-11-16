@@ -38,9 +38,14 @@ const Navigation = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-xl opacity-20 group-hover:opacity-40 blur-md transition-all duration-300" />
-              <div className="relative w-11 h-11 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+              {/* <div className="relative w-11 h-11 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
                 <span className="text-2xl font-heading font-black text-white">H</span>
-              </div>
+              </div> */}
+                <img
+    src="src/assets/logoo.png"
+    alt="Logo"
+    className="w-17 h-11 object-contain"
+  />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-heading font-black text-foreground group-hover:text-primary transition-colors">
