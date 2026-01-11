@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-xl opacity-20 group-hover:opacity-40 blur-md transition-all duration-300" />
                 <div className="relative w-10 h-10 rounded-xl overflow-hidden">
                   <img
-                  src="public/assets/logoo.png"
+                  src="/assets/logoo.png"
                   alt="Logo"
                   className="w-12 h-12 object-contain"
                 />

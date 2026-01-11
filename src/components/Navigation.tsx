@@ -42,7 +42,7 @@ const Navigation = () => {
                 <span className="text-2xl font-heading font-black text-white">H</span>
               </div> */}
                 <img
-    src="public/assets/logoo.png"
+    src="/assets/logoo.png"
     alt="Logo"
     className="w-17 h-11 object-contain"
   />

@@ -3,7 +3,7 @@
     "id": "eduwave",
     "title": "Nexus Photography Studio",
     "description": "Complete LMS with live classes, assignments, and student analytics dashboard.",
-    "image": "public/assets/NexusProject.png",
+    "image": "/assets/NexusProject.png",
     "tags": ["React", "Node.js", "MongoDB", "WebRTC"],
     "category": "Web Development"
   },
@@ -12,7 +12,7 @@
     "id": "turfify",
     "title": "Spoortx Turf Booking ",
     "description": "Sports turf booking platform with real-time availability and payment integration.",
-    "image": "public/assets/turftemp.jpg",
+    "image": "/assets/turftemp.jpg",
     "tags": ["Next.js", "PostgreSQL", "Razorpay", "Tailwind"],
     "category": "Web Development"
   },
@@ -20,7 +20,7 @@
     "id": "sentiment-analyzer",
     "title": "D-Nest Architecture",
 "description": "Dnest — modern residential and commercial architecture blending minimalist design, sustainable materials, and smart living solutions.",
-    "image": "public/assets/dnest.png",
+    "image": "/assets/dnest.png",
     "tags": ["Python", "TensorFlow", "NLP", "FastAPI"],
     "category": "Web Development"
   },
@@ -28,7 +28,7 @@
     "id": "campuskart",
     "title": "Eflyer e-commerce",
     "description": "E-commerce marketplace connecting college students for buying and selling campus essentials.",
-    "image": "public/assets/eflyer.jpg",
+    "image": "/assets/eflyer.jpg",
     "tags": ["React ", "Firebase", "Stripe", "Redux"],
     "category": "Web Development"
   },
@@ -36,7 +36,7 @@
     "id": "hostel-management",
     "title": "Hostel Management System",
     "description": "Student project for managing hostel operations including room allocation and complaints.",
-    "image": "public/assets/hostel1.jpg",
+    "image": "/assets/hostel1.jpg",
     "tags": ["Java", "Spring Boot","Django", "MySQL", "Thymeleaf"],
     "category": "Student Project"
   },
@@ -44,7 +44,7 @@
     "id": "Ganraaj Designs & Build",
     "title": "Ganraaj Designs & Build",
 "description": "Ganraaj Constructions specializes in modern building design and quality infrastructure development with a focus on durability, precision, and customer satisfaction.",
-    "image": "public/assets/ganraaj.png",
+    "image": "/assets/ganraaj.png",
     "tags": ["Next.js","Django","React"],
     "category": "Web Development"
   },
@@ -53,7 +53,7 @@
     "id": "chatbot-assistant",
     "title": "AI Resume  Builder",
     "description": "Intelligent chatbot leveraging NLP to assist students with course, attendance, and exam-related queries.",
-    "image": "public/assets/aibuilder.webp",
+    "image": "/assets/aibuilder.webp",
     "tags": ["Python", "NLP", "TensorFlow", "Django"],
     "category": "Student Project"
   },
@@ -61,7 +61,7 @@
     "id": "disease-predictor",
     "title": "Movie Ticket Booking",
     "description": "Online movie ticket booking system with seat reservation and payment integration",
-    "image": "public/assets/movieticket.webp",
+    "image": "/assets/movieticket.webp",
     "tags": ["Python", "Scikit-learn", "Pandas", "Flask"],
     "category": "Student Project"
   }
